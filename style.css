@@ -1,0 +1,46 @@
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 96%;
+  background-color: #ccc;
+  
+}
+
+body {
+  color:#333;
+   background-color: #ccc;
+   margin: 0;
+   padding: 0;
+ }
+
+div {
+    width: 22%;
+    color: #333;
+    background-color: #ccc ;
+    padding: 15px;
+}
+
+
+div:hover {
+  background-color: #fff;
+}
+
+header {
+  background-color: #333;
+  color: #ccc;
+  padding: 10px;
+  
+}
+
+h1 {
+  align-self: center;
+}
+
+@media (max-width: 700px) {
+    div {
+        width: 50%;
+    }
+
+  }
+
+
